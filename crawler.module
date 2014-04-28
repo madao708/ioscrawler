@@ -1,0 +1,5 @@
+<?php
+require_once 'includes/crawler.admin.inc';
+
+define("ITUNES_ID_URL", "https://itunes.apple.com/cn/app/id");
+define("YQL_URL", "http://query.yahooapis.com/v1/public/yql?q=");

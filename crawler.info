@@ -1,0 +1,10 @@
+name = IOS Crawler
+description = crawler ios app info 
+configure = admin/config/crawler
+dependencies[] = querypath 
+files[] = crawler.module
+files[] = includes/crawler.admin.inc
+package = Other
+core = 7.x
+
+
