@@ -20,15 +20,6 @@ function crawler_menu() {
 
 	);
 	
-	$items['admin/test'] = array (
-		'title' => 'crawler app',
-		'description' => 'crawler by store id',
-		'position' => 'right',
-		'page callback' => 'test1',
-		'access callback' => TRUE,
-
-	);
-
 	return $items;
 }
 
